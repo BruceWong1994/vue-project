@@ -3,7 +3,8 @@
 // import Parent from './components/ParentToChild/Parent.vue'
 // import Parents from './components/childToParent/Parents.vue'
 // import Parent1 from './components/ParentChild/p1.vue'
-import SlotContainer from './components/Slots/SlotContainer.vue'
+// import SlotContainer from './components/Slots/SlotContainer.vue'
+import TabPannel from './components/ChangeTabs/TabPannel.vue'
 
 export default{
   components:{
@@ -11,7 +12,8 @@ export default{
     // Parent,
     // Parents
     // Parent1
-    SlotContainer
+    // SlotContainer
+    TabPannel
   }
 }
 </script>
@@ -21,7 +23,8 @@ export default{
   <!-- <Parent /> -->
   <!-- <Parents /> -->
   <!-- <Parent1 /> -->
-  <SlotContainer />
+  <!-- <SlotContainer /> -->
+  <TabPannel />
 </template>
 
 <style>
