@@ -3,13 +3,12 @@
 
     </div>
     <div class="maincontent">
-        <ComputedPage />
-        <hr>
+        <!-- <ComputedPage />
         <ClassStyle1 />
         <ClassStyle2 />
-        <hr>
         <VFor />
-        <hr>
+        <DataForm /> -->
+
         <testPage />
     </div>
 </template>
@@ -23,6 +22,8 @@
     import ClassStyle2 from '../OptionsApi/ClassStyle.vue';
 
     import VFor from '../CompositionApi/VForPage.vue';
+
+    import DataForm from '../CompositionApi/DataForm.vue';
 </script>
 
 <style>
